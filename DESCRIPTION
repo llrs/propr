@@ -1,15 +1,27 @@
-Package: propr
 Type: Package
-Title: Ways to measure strength of proportionality 
+Package: propr
+Title: Ways to measure strength of proportionality
 Version: 0.0.9000
 Date: 2015-07-27
-Authors@R: person("David", "Lovell", email="David.Lovell@qut.edu.au", role=c("aut","cre"))
+Authors@R:
+    person(given = "David",
+           family = "Lovell",
+           role = c("aut", "cre"),
+           email = "David.Lovell@qut.edu.au")
 Maintainer: David Lovell <David.Lovell@qut.edu.au>
-Description: This package implements and extends the phi statistic as measure of the 
-    strength of proportionality between two variables. This approach was proposed by Lovell et al. 
-    (2015) in "Proportionality: A Valid Alternative to Correlation for Relative Data", DOI:
-    10.1371/journal.pcbi.1004075 for use with compositional data, i.e., data that carry only
-    relative information (e.g., proportions, percentages, parts-per-million, etc).
-License: MIT
+Description: This package implements and extends the phi
+    statistic as measure of the strength of proportionality between two
+    variables. This approach was proposed by Lovell et al.  (2015) in
+    "Proportionality: A Valid Alternative to Correlation for Relative
+    Data", DOI: 10.1371/journal.pcbi.1004075 for use with compositional
+    data, i.e., data that carry only relative information (e.g.,
+    proportions, percentages, parts-per-million, etc).
+License: MIT + file LICENSE
 URL: https://github.com/DavidRLovell/propr
 BugReports: https://github.com/DavidRLovell/propr/issues
+Suggests: 
+    testthat,
+    spelling,
+    covr
+Language: en-US
+RoxygenNote: 6.1.0
